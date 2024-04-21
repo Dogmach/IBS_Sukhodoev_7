@@ -1,2 +1,9 @@
-package org.example.operations;public class Multiply {
+package org.example.operations;
+
+public class Multiply implements MathOperation {
+
+    @Override
+    public float result(float a, float b) {
+        return a * b;
+    }
 }
